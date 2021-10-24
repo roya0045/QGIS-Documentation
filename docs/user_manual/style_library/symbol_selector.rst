@@ -438,6 +438,10 @@ symbol layer types:
     within the extent of the feature.
   * No clipping: Will cover the feature with marker, markers will go beyond the
     edge of the feature, depending on their size, and will not be clipped.
+    
+  A random offset can also be specified in mm, points, map units or
+  a percentage based on the existing dimensions of the pattern. This repensent
+  the maximum distance a point can be moved in each dimension.
 * **Random marker fill**: fills the polygon with a :ref:`marker symbol 
   <vector_marker_symbols>` placed at random locations within the polygon
   boundary. You can set:
