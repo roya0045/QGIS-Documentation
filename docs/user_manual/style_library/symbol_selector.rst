@@ -418,12 +418,16 @@ symbol layer types:
   A data-defined offset can be defined;
 * **Line pattern fill**: fills the polygon with a hatching pattern of
   :ref:`line symbol layer <vector_line_symbols>`. You can set a rotation, the
-  spacing between lines and an offset from the feature boundary;
+  spacing between lines and an offset from the feature boundary.
+  The rendering of the features can also be modified with the Aligment setting.
+  This allows the rendering to to be independent per feature, the default behaviour,
+  or unified based on the whole map extent.;
 * **Point pattern fill**: fills the polygon with a hatching pattern of 
   :ref:`marker symbol layer <vector_marker_symbols>`. You can set the distance
   and a displacement between rows of markers, and an offset from the
-  feature boundary. Clipping options of the pattern can also be set.
-  The existing modes are:
+  feature boundary. As with the Line pattern fill, the alignment parameter is 
+  also available. Additionnally clipping options of the pattern can also be set.
+  The existing clipping modes are:
   
   * Clip to shape: Will clip the symbols to prevent them from extending 
     beyond the edge of the shape.
