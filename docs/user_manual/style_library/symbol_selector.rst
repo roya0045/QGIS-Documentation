@@ -530,6 +530,10 @@ geometry on the fly during the rendering process. The resulting geometry does
 not have to match with the original geometry type and you can add several
 differently modified symbol layers on top of each other.
 
+The rendering of the geometry may also be done in different reference system by
+changing the units used. By default map units are used, but drawing units, such as:
+mm, pixels, inches and points can also be used to render the features.
+
 Some examples:
 
 ::
