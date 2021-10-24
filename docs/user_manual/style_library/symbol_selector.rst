@@ -425,8 +425,9 @@ symbol layer types:
 * **Point pattern fill**: fills the polygon with a hatching pattern of 
   :ref:`marker symbol layer <vector_marker_symbols>`. You can set the distance
   and a displacement between rows of markers, and an offset from the
-  feature boundary. As with the Line pattern fill, the alignment parameter is 
-  also available. Additionnally clipping options of the pattern can also be set.
+  feature boundary. The angle of the grid used can also be customized.
+  As with the Line pattern fill, the alignment parameter is also available.
+  Additionnally clipping options of the pattern can also be set.
   The existing clipping modes are:
   
   * Clip to shape: Will clip the symbols to prevent them from extending 
